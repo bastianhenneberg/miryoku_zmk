@@ -8,7 +8,7 @@
 #define XXX &none
 
 // euro sign
-ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)  // €
+#define ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)  // €
 
 // FPS friendly tap layer
 #define MIRYOKU_LAYER_GERMAN \
