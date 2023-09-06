@@ -10,7 +10,7 @@ ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)  // €
 
 // FPS friendly tap layer
 #define MIRYOKU_LAYER_GERMAN \
-&kp TAB,           &kp Q,             &kp CAPS,          &kp E,             &kp &de_ae,             &kp T,             &kp NUM_1,         &kp NUM_2,         &kp NUM_3,       &kp NUM_3,    \
+&kp TAB,           &kp Q,             &kp CAPS,          &kp E,             &euro_sign,             &kp T,             &kp NUM_1,         &kp NUM_2,         &kp NUM_3,       &kp NUM_3,    \
 &kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             &kp G,             U_MS_L,            U_MS_D,            U_MS_U,          U_MS_U,       \
 &kp ESC,           &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp LBKT,          &kp COMMA,         &kp DOT,         &kp DOT,      \
 U_NP,              U_NP,              &kp LCTRL,         &kp SPC,           &kp LALT,          U_BTN2,            U_BTN1,            U_BTN3,            U_NP,             
