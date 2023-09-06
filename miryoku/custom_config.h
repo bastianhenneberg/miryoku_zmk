@@ -5,7 +5,7 @@
 
 // FPS friendly tap layer
 #define MIRYOKU_LAYER_GERMAN \
-&kp TAB,           &kp Q,             &kp Ö,             &kp E,             &kp R,             &kp T,             &kp NUM_1,         &kp NUM_2,         &kp NUM_3,       &kp NUM_3,    \
+&kp TAB,           &kp Q,             &kp CAPS,          &kp E,             &kp R,             &kp T,             &kp NUM_1,         &kp NUM_2,         &kp NUM_3,       &kp NUM_3,    \
 &kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             &kp G,             U_MS_L,            U_MS_D,            U_MS_U,          U_MS_U,       \
 &kp ESC,           &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp LBKT,          &kp COMMA,         &kp DOT,         &kp DOT,      \
 U_NP,              U_NP,              &kp LCTRL,         &kp SPC,           &kp LALT,          U_BTN2,            U_BTN1,            U_BTN3,            U_NP,             
@@ -33,7 +33,7 @@ MIRYOKU_X(MEDIA,  "Media") \
 MIRYOKU_X(NUM,    "Num") \
 MIRYOKU_X(SYM,    "Sym") \
 MIRYOKU_X(FUN,    "Fun") \
-MIRYOKU_X(GERMAN,   "German") 
+MIRYOKU_X(GERMAN,  "German") 
 
 #define MIRYOKU_LAYERMAPPING_GERMAN MIRYOKU_MAPPING
 
