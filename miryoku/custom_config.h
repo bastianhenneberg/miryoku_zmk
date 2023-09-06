@@ -33,7 +33,7 @@ MIRYOKU_X(MEDIA,  "Media") \
 MIRYOKU_X(NUM,    "Num") \
 MIRYOKU_X(SYM,    "Sym") \
 MIRYOKU_X(FUN,    "Fun") \
-MIRYOKU_X(GAME,   "German") 
+MIRYOKU_X(GERMAN,   "German") 
 
 #define MIRYOKU_LAYERMAPPING_GERMAN MIRYOKU_MAPPING
 
