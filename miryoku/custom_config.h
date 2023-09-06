@@ -1,7 +1,7 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-#include "../miryoku_zmk/miryoku/german.dtsi"
+#include "/german.dtsi"
 
 #define XXX &none
 
