@@ -6,15 +6,11 @@
 #define XXX &none
 
 // euro sign
-#define ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C) \
-ZMK_UNICODE_PAIR(   de_ae,      N0, N0,  E, N4,    N0, N0,  C, N4) \
-ZMK_UNICODE_PAIR(   de_oe,      N0, N0,  F, N6,    N0, N0,  D, N6) \
-ZMK_UNICODE_PAIR(   de_ue,      N0, N0,  F,  C,    N0, N0,  D,  C) \
-ZMK_UNICODE_PAIR(de_eszett,     N0, N0,  D,  F,    N1, E,   N9, E)
+#define ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)
 
 // FPS friendly tap layer
 #define MIRYOKU_LAYER_GERMAN \
-&kp TAB,           &kp Q,             &kp CAPS,          &kp E,             &kp euro_sign,        &kp T,             &kp NUM_1,         &kp NUM_2,         &kp NUM_3,       &kp NUM_3,    \
+&kp TAB,           &kp Q,             &kp CAPS,          &kp E,             &euro_sign,        &kp T,             &kp NUM_1,         &kp NUM_2,         &kp NUM_3,       &kp NUM_3,    \
 &kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             &kp G,             U_MS_L,            U_MS_D,            U_MS_U,          U_MS_U,       \
 &kp ESC,           &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp LBKT,          &kp COMMA,         &kp DOT,         &kp DOT,      \
 U_NP,              U_NP,              &kp LCTRL,         &kp SPC,           &kp LALT,          U_BTN2,            U_BTN1,            U_BTN3,            U_NP,             
