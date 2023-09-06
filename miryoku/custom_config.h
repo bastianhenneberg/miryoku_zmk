@@ -2,8 +2,8 @@
 // https://github.com/manna-harbour/miryoku
 
 // #include "german.dtsi"
-#include "../zmk-nodefree-config/helper.h"
-#include "../zmk-nodefree-config/international_chars/german.dtsi"
+#include "../zmk-nodefree-config/zmk-nodefree-config-main/helper.h"
+#include "../zmk-nodefree-config/zmk-nodefree-config-main/international_chars/german.dtsi"
 
 #define XXX &none
 
