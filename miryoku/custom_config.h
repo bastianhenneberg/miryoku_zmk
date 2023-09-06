@@ -5,6 +5,9 @@
 
 #define XXX &none
 
+// euro sign
+#define ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)  // €
+
 // FPS friendly tap layer
 #define MIRYOKU_LAYER_GERMAN \
 &kp TAB,           &kp Q,             &kp CAPS,          &kp E,             &kp R,        &kp T,             &kp NUM_1,         &kp NUM_2,         &kp NUM_3,       &kp NUM_3,    \
